@@ -1,7 +1,11 @@
 ---
 test-cases:
+- summary: |
+      Переход на следующую страницу каталога
+    status: pass
+  
   - summary: |
-      Успешная проверка фильтра по ключевому слову
+      Проверка фильтра по ключевому слову
     status: pass
 
   - summary: |
@@ -17,7 +21,7 @@ test-cases:
     status: pass
 
   - summary: |
-      Успешная проверка фильтра по цене
+      Проверка фильтра по цене
     status: pass
 
   - summary: |
@@ -33,7 +37,27 @@ test-cases:
     status: pass
 
   - summary: |
+      Проверка перехода по хэштегу
+    status: pass
+
+  - summary: |
+      Удаление товара из корзины
+    status: pass    
+
+  - summary: |
+      Проверка кнопки "Очистить корзину" в корзине товаров
+    status: fail
+
+  - summary: |
+      Проверка кнопки "Продолжить покупки" в корзине товаров
+    status: pass    
+
+  - summary: |
       Проверка отображения сайта с мобильного устройства
+    status: fail
+
+  - summary: |
+      Проверка запроса на оформление заказа
     status: fail
 
   - summary: |
